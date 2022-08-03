@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import MainDiv from "../../components/MainDiv";
+import WhatsAppButton from "../../components/WhatsAppButton";
 import { StyledDiv } from "./style";
 
 const Inicio = () => {
@@ -7,6 +8,7 @@ const Inicio = () => {
     <StyledDiv>
       <Header />
       <MainDiv />
+      <WhatsAppButton />
     </StyledDiv>
   );
 };
