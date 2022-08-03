@@ -10,7 +10,7 @@ export const StyledAppBar = muiStyles.styled(AppBar)`
     color: #22211B;
 
     .logo-desktop{
-      width: 100px;
+      width: 120px;
     }
 
     .ul-desktop {
@@ -20,6 +20,22 @@ export const StyledAppBar = muiStyles.styled(AppBar)`
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
+        @media (min-width: 840px) {
+          justify-content: center;
+          gap: 3rem;
+        }
+
+
+      & > li > button {
+        @media (min-width: 600px) {
+          font-size: 0.9rem;
+        }
+
+        @media (min-width: 800px) {
+          font-size: 1rem;
+        }
+      }
     }
 
 `;
