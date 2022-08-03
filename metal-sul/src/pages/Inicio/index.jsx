@@ -1,5 +1,11 @@
+import Header from "../../components/Header";
+
 const Inicio = () => {
-  return <h1>Inicio</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Inicio;
