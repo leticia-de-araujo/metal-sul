@@ -1,5 +1,12 @@
+import Header from "../../components/Header";
+
 const Empresa = () => {
-  return <h1>Empresa</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Empresa</h1>
+    </>
+  );
 };
 
 export default Empresa;

@@ -1,5 +1,12 @@
+import Header from "../../components/Header";
+
 const ObrasRealizadas = () => {
-  return <h1>Obras Realizadas</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Obras</h1>
+    </>
+  );
 };
 
 export default ObrasRealizadas;
