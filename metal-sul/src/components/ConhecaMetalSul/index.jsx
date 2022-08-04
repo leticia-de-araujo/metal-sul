@@ -1,6 +1,10 @@
 import { Button } from "@mui/material";
+
 import { StyledDiv } from "./style";
+
 import { useHistory } from "react-router-dom";
+
+import Fade from "react-reveal/Fade";
 
 const ConhecaMetalSul = () => {
   const history = useHistory();
@@ -10,26 +14,37 @@ const ConhecaMetalSul = () => {
   };
   return (
     <StyledDiv>
-      <h2>CONHEÇA A METALSUL</h2>
-      <div className="content-conheca">
-        <div className="img-div"></div>
+      <Fade right>
+        <h2>CONHEÇA A METALSUL</h2>
+      </Fade>
+      <Fade bottom>
+        <div className="content-conheca">
+          <div className="img-div"></div>
 
-        <div className="text-div">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quis
-            voluptatum nam, ullam veritatis, pariatur omnis molestias quas eum
-            accusantium quasi fuga adipisci et laudantium non tempore impedit
-            aliquid! Maiores.
-          </p>
-          <Button
-            variant="contained"
-            sx={{ textTransform: "capitalize", maxWidth: "10rem" }}
-            onClick={() => goToEmpresa()}
-          >
-            Saiba Mais
-          </Button>
+          <div className="text-div">
+            <p>
+              Somos uma empresa especializada em{" "}
+              <span className="estruturas">estruturas metálicas</span>, com
+              larga experiência em estruturas de Shoppings Centers, Barracões e
+              Mezaninos.
+            </p>
+            <p>
+              {" "}
+              Na <span className="metalSul">MetalSul</span>, entregamos soluções
+              completas para sua empresa, condomínio ou residência, sempre
+              prezando pela qualidade e segurança de nossos serviços.
+            </p>
+
+            <Button
+              variant="contained"
+              sx={{ textTransform: "capitalize", maxWidth: "10rem" }}
+              onClick={() => goToEmpresa()}
+            >
+              Saiba Mais
+            </Button>
+          </div>
         </div>
-      </div>
+      </Fade>
     </StyledDiv>
   );
 };

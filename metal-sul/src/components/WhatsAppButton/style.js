@@ -20,7 +20,7 @@ export const StyledDiv = styled.div`
     display: none;
 
     p {
-      font-size: 0.8rem;
+      font-size: 0.95rem;
       font-weight: 500;
     }
 
@@ -35,8 +35,8 @@ export const StyledDiv = styled.div`
     -moz-box-shadow: 10px 10px 14px 3px rgba(0, 0, 0, 0.14);
 
     @media (min-width: 700px) {
-      width: 42px;
-      height: 42px;
+      width: 45px;
+      height: 45px;
     }
   }
   .whats-button:hover,

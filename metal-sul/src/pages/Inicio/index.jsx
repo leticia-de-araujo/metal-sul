@@ -13,7 +13,7 @@ const Inicio = () => {
       <MainDiv />
       <ServicosInicio />
       <ConhecaMetalSul />
-      {/* <OrcamentosDuvidas /> */}
+      <OrcamentosDuvidas />
       <WhatsAppButton />
     </StyledDiv>
   );

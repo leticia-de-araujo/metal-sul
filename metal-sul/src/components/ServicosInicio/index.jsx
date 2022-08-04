@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
+
 import servicos from "../../data/servicos";
 
 import Fade from "react-reveal/Fade";
@@ -15,27 +16,27 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const ServicosInicio = () => {
   return (
     <StyledDiv>
-      <Fade right duration={1000}>
+      <Fade right>
         {" "}
         <h2>SERVIÇOS</h2>
       </Fade>
 
-      <Fade left duration={1000}>
+      <Fade bottom>
         <div className="swiper-div">
           <Swiper
             slidesPerView={1}
-            spaceBetween={10}
+            spaceBetween={15}
             pagination={{
               clickable: true,
             }}
             breakpoints={{
               600: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 15,
               },
               720: {
                 slidesPerView: 3,
-                spaceBetween: 40,
+                spaceBetween: 15,
               },
             }}
             modules={[Pagination, Navigation]}
