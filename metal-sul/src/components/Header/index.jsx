@@ -147,7 +147,7 @@ const Header = () => {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
-              // height: "35vh",
+              height: "38vh",
               borderRadius: "0 0 1rem 0",
             },
           }}

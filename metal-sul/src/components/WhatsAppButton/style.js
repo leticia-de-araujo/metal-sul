@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const StyledDiv = styled.div`
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   right: 10px;
   display: flex;
   gap: 7px;
   justify-content: center;
   align-items: center;
+  z-index: 1200;
 
   div {
     background-color: #e9e9e9;
@@ -29,6 +30,10 @@ export const StyledDiv = styled.div`
   }
 
   .whats-button {
+    box-shadow: 10px 10px 14px 3px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 10px 10px 14px 3px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 14px 3px rgba(0, 0, 0, 0.14);
+
     @media (min-width: 700px) {
       width: 42px;
       height: 42px;

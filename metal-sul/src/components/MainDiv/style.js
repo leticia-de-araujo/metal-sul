@@ -2,9 +2,9 @@ import styled from "styled-components";
 import obra1 from "../../imgs/obras/obra1.jpg";
 
 export const StyledDiv = styled.div`
-  margin-top: 63px;
   width: 100%;
-  height: 470px;
+  min-height: 95vh;
+  margin-top: 63px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ export const StyledDiv = styled.div`
     justify-content: center;
     gap: 10px;
     max-width: 40rem;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
     @media (min-width: 800px) {
       position: absolute;
@@ -35,7 +35,6 @@ export const StyledDiv = styled.div`
 
     h2 {
       font-size: 2.2rem;
-     
 
       @media (min-width: 700px) {
         font-size: 2.8rem;
