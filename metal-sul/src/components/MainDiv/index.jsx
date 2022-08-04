@@ -19,8 +19,8 @@ const MainDiv = () => {
             Segurança e <span>qualidade</span>
           </h2>
           <p>
-            Somos uma empresa com mais de 10 anos de história, especializada em
-            oferecer estruturas metálicas de qualidade.
+            Somos uma empresa com mais de 10 anos de experiência, especializada
+            em oferecer estruturas metálicas de qualidade.
           </p>
 
           <Button

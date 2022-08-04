@@ -7,7 +7,7 @@ export const StyledAppBar = muiStyles.styled(AppBar)`
     background-color: white;
     position: fixed;
     top: 0;
-    color: #22211B;
+    color: #454649;
 
     .logo-desktop{
       width: 120px;

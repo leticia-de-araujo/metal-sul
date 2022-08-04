@@ -9,11 +9,11 @@ const WhatsAppButton = () => {
       <Pulse>
         <div>
           {" "}
-          <p>Em que posso ajudar?</p>
+          <p>Em que podemos ajudar?</p>
         </div>
 
         <a
-          href="https://api.whatsapp.com/send?phone=5541995490666&text=Olá, gostaria de mais informações sobre os serviços da Metal Sul."
+          href="https://api.whatsapp.com/send?phone=5541995490666&text=Olá, gostaria de mais informações sobre os serviços da MetalSul."
           target="_blank"
           rel="noreferrer"
         >
