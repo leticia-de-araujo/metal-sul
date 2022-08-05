@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledDiv = styled.div`
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 12px;
+  right: 12px;
   display: flex;
   gap: 7px;
   justify-content: center;
@@ -35,8 +35,8 @@ export const StyledDiv = styled.div`
     -moz-box-shadow: 10px 10px 14px 3px rgba(0, 0, 0, 0.14);
 
     @media (min-width: 700px) {
-      width: 45px;
-      height: 45px;
+      width: 55px;
+      height: 55px;
     }
   }
   .whats-button:hover,

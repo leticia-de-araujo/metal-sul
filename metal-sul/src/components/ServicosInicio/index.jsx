@@ -11,7 +11,6 @@ import servicos from "../../data/servicos";
 import Fade from "react-reveal/Fade";
 
 import { Button } from "@mui/material";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const ServicosInicio = () => {
   return (
@@ -39,6 +38,7 @@ const ServicosInicio = () => {
                 spaceBetween: 15,
               },
             }}
+            navigation={true}
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
@@ -52,8 +52,8 @@ const ServicosInicio = () => {
                 >
                   <h3>{servico.nome}</h3>
                   <Button
-                    endIcon={<ArrowForwardIosIcon />}
-                    sx={{ textTransform: "capitalize", color: "white" }}
+                    variant="text"
+                    className="saiba-mais"
                     // TODO Adicionar funcionalidade nos botões
                   >
                     Saiba mais
