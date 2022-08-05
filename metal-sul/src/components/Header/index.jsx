@@ -93,7 +93,7 @@ const Header = () => {
     <StyledBox onClick={handleDrawerToggle} sx={{ width: drawerWidth }}>
       <div className="logo-closeButton">
         <Button color="secondary" onClick={() => goToPage("inicio")}>
-          <img src={Logo} alt="Logo Metal Sul" className="logo" />
+          <img src={Logo} alt="Logo MetalSul" className="logo" />
         </Button>
         <IconButton color="secondary" onClick={handleDrawerToggle}>
           <CloseIcon />
@@ -113,7 +113,7 @@ const Header = () => {
           sx={{ justifyContent: "space-between", padding: 0, gap: "1rem" }}
         >
           <Button color="secondary" onClick={() => goToPage("inicio")}>
-            <img src={Logo} alt="Logo Metal Sul" className="logo-desktop" />
+            <img src={Logo} alt="Logo MetalSul" className="logo-desktop" />
           </Button>
 
           <IconButton

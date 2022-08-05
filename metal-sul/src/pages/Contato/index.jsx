@@ -1,10 +1,14 @@
+import ContatoMain from "../../components/ContatoMain";
+
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 const Contato = () => {
   return (
     <>
       <Header />
-      <h1>Contato</h1>
+      <ContatoMain />
+      <Footer />
     </>
   );
 };

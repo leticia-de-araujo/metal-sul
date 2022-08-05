@@ -13,7 +13,7 @@ const WhatsAppButton = () => {
         </div>
 
         <a
-          href="https://api.whatsapp.com/send?phone=5541995490666&text=Olá, gostaria de mais informações sobre os serviços da MetalSul."
+          href="https://api.whatsapp.com/send?phone=5541995490001&text=Olá, gostaria de mais informações sobre os serviços da MetalSul."
           target="_blank"
           rel="noreferrer"
         >
@@ -21,8 +21,8 @@ const WhatsAppButton = () => {
             sx={{
               background: "#2db742",
               color: "white",
-              width: "35px",
-              height: "35px",
+              width: "45px",
+              height: "45px",
             }}
             className="whats-button"
           >

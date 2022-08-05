@@ -21,6 +21,7 @@ const OrcamentosDuvidas = () => {
             backgroundColor: "#F5F5F5",
             margin: "0 1rem",
             display: "flex",
+            borderRadius: "10px",
           }}
         >
           <div className="text-div">
