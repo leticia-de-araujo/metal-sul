@@ -1,20 +1,23 @@
 import { StyledDiv } from "./style";
-import { Button, Paper } from "@mui/material";
+import { Button, Divider, Paper } from "@mui/material";
 
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 
-import obra10 from "../../imgs/obras/obra10.jpg";
-
 import Fade from "react-reveal/Fade";
 
 const ContatoMain = () => {
   return (
     <StyledDiv>
-      <Fade right>
-        <h2>Contato</h2>
+      <Fade top>
+        <div className="header-contato">
+          <div>
+            {" "}
+            <h2>Contato</h2>
+          </div>
+        </div>
       </Fade>
       <Fade bottom className="fade">
         <div className="content">
@@ -47,6 +50,7 @@ const ContatoMain = () => {
                 </Button>
               </a>
             </div>
+            <Divider orientation="vertical" variant="middle" flexItem />
             <div className="info">
               <h4>Mais informações</h4>
               <ul>
@@ -64,7 +68,6 @@ const ContatoMain = () => {
               </ul>
             </div>
           </Paper>
-          <img src={obra10} alt="Estrutura metálica" />
         </div>
       </Fade>
     </StyledDiv>

@@ -93,7 +93,7 @@ export const StyledDiv = styled.div`
         }
 
         @media (min-width: 800px) {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
         }
 
         .estruturas {
