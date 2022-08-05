@@ -8,18 +8,14 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 
 import Fade from "react-reveal/Fade";
 
+import Header from "../Header";
+
 const ContatoMain = () => {
   return (
     <StyledDiv>
-      <Fade top>
-        <div className="header-contato">
-          <div>
-            {" "}
-            <h2>Contato</h2>
-          </div>
-        </div>
-      </Fade>
-      <Fade bottom className="fade">
+      {" "}
+      <Header page={"Contato"} />
+      <Fade bottom>
         <div className="content">
           <Paper className="paper">
             <div className="text">

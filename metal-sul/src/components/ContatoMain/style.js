@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import obra10 from "../../imgs/obras/obra10.jpg";
-
 export const StyledDiv = styled.main`
   width: 100%;
   min-height: 100vh;
@@ -13,40 +11,6 @@ export const StyledDiv = styled.main`
   align-items: center;
   background-color: #f5f5f5;
 
-  .header-contato {
-    width: 100%;
-    height: 23vh;
-    background-image: url(${obra10});
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-
-    @media (min-width: 1000px) {
-      margin-bottom: 4rem;
-    }
-
-    div {
-      background-color: #f5f5f5e8;
-      padding: 1rem;
-      border-radius: 6px;
-
-      h2 {
-        color: #454649;
-        letter-spacing: 1px;
-        font-weight: 500;
-        border-bottom: 3px solid #5177b8;
-        padding-bottom: 2px;
-        text-align: center;
-      }
-    }
-  }
-
   .content {
     width: 100%;
     border-radius: 6px;
@@ -54,17 +18,14 @@ export const StyledDiv = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
     padding: 0 1rem;
-
-    @media (min-width: 1000px) {
-      margin-bottom: 4rem;
-    }
+    margin: 2rem 0;
+    flex: 1;
 
     .paper {
       background-color: white;
       color: #454649;
-      padding: 1.5rem;
+      padding: 1.5rem 2rem;
       width: 100%;
       height: fit-content;
       display: flex;
@@ -74,7 +35,7 @@ export const StyledDiv = styled.main`
       gap: 1rem;
 
       @media (min-width: 700px) {
-        max-width: 50rem;
+        max-width: 44rem;
         flex-direction: row;
         gap: 3.5rem;
       }
@@ -94,7 +55,7 @@ export const StyledDiv = styled.main`
           width: fit-content;
 
           @media (min-width: 800px) {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
           }
         }
 
@@ -133,7 +94,7 @@ export const StyledDiv = styled.main`
 
             svg {
               @media (min-width: 800px) {
-                font-size: 1.9rem;
+                font-size: 1.8rem;
               }
             }
           }

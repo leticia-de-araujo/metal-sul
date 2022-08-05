@@ -1,9 +1,10 @@
-import Header from "../../components/Header";
+
+import NavBar from "../../components/NavBar";
 
 const ObrasRealizadas = () => {
   return (
     <>
-      <Header />
+      <NavBar/>
       <h1>Obras</h1>
     </>
   );

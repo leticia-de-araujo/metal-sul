@@ -1,9 +1,9 @@
-import Header from "../../components/Header";
+import NavBar from "../../components/NavBar";
 
 const Servicos = () => {
   return (
     <>
-      <Header />
+      <NavBar />
       <h1>Serviços</h1>
     </>
   );

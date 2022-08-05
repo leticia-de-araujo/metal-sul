@@ -1,71 +1,33 @@
-import * as muiStyles from "@mui/material/styles";
-import { AppBar, Box } from "@mui/material";
+import styled from "styled-components";
 
-export const StyledAppBar = muiStyles.styled(AppBar)`
+import obra10 from "../../imgs/obras/obra10.jpg";
 
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    color: #454649;
+export const StyledHeader = styled.div`
+  width: 100vw;
+  overflow-x: hidden;
+  height: 140px;
+  background-image: url(${obra10});
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    .logo-desktop{
-      width: 120px;
+  div {
+    background-color: #f5f5f5e8;
+    padding: 1rem;
+    border-radius: 6px;
+
+    h2 {
+      color: #454649;
+      letter-spacing: 1px;
+      font-weight: 500;
+      border-bottom: 3px solid #5177b8;
+      padding-bottom: 2px;
+      text-align: center;
     }
-
-    .ul-desktop {
-        width: 100%;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        @media (min-width: 840px) {
-          justify-content: center;
-          gap: 3rem;
-        }
-
-
-      & > li > button {
-        @media (min-width: 600px) {
-          font-size: 0.9rem;
-        }
-
-        @media (min-width: 800px) {
-          font-size: 1rem;
-        }
-      }
-    }
-
-`;
-
-export const StyledBox = muiStyles.styled(Box)`
-
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-    .logo-closeButton {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-
-      .logo {
-      width: 70px;
-      }
-    }
-
-    
-  
-    .ul-mobile {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-    }
-
+  }
 `;

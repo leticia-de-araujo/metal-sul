@@ -1,10 +1,12 @@
-import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import NavBar from "../../components/NavBar";
 
 const Empresa = () => {
   return (
     <>
-      <Header />
+      <NavBar />
       <h1>Empresa</h1>
+      <Footer />
     </>
   );
 };
