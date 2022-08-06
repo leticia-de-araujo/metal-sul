@@ -41,7 +41,6 @@ export const StyledMain = styled.main`
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
-      border-radius: 4px;
       box-shadow: 10px 10px 16px -5px rgba(0, 0, 0, 0.32);
 
       @media (min-width: 800px) {

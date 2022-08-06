@@ -12,7 +12,15 @@ import Fade from "react-reveal/Fade";
 
 import { Button } from "@mui/material";
 
+import { useHistory } from "react-router-dom";
+
 const ServicosInicio = () => {
+  const history = useHistory();
+
+  const goToServicos = () => {
+    history.push("/servicos");
+  };
+
   return (
     <StyledDiv>
       <Fade right>
@@ -54,7 +62,7 @@ const ServicosInicio = () => {
                   <Button
                     variant="text"
                     className="saiba-mais"
-                    // TODO Adicionar funcionalidade nos botões
+                    onClick={() => goToServicos()}
                   >
                     Saiba mais
                   </Button>

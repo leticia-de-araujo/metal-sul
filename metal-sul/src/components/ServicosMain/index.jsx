@@ -10,12 +10,6 @@ import Fade from "react-reveal/Fade";
 
 import servicos from "../../data/servicos";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper";
-
 const ServicosMain = () => {
   return (
     <StyledMain>
@@ -24,30 +18,17 @@ const ServicosMain = () => {
       {servicos.map((servico) => (
         <Fade key={servico.id}>
           <div className="content-servicos">
-            <div className="swiper-div">
-              <Swiper
-                slidesPerView={1}
-                spaceBetween={15}
-                pagination={{
-                  clickable: true,
-                }}
-                navigation={true}
-                modules={[Pagination, Navigation]}
-                className="mySwiper"
-              >
-                <SwiperSlide>
-        
-                  <img
-                    src={servico.img}
-                    alt={servico.nome}
-                    className="servico-img"
-                  />
-                </SwiperSlide>
-              </Swiper>
-            </div>
+            <div
+              className="servico-img"
+              style={{
+                backgroundImage: ` url(${servico.img})`,
+              }}
+            ></div>
             <div className="text-div">
               <h4>{servico.nome}</h4>
-              <p>Descrição do serviço</p>
+              <p>{servico.descricao[0]}</p>
+              {servico.descricao[1] && <p>{servico.descricao[1]}</p>}
+              {servico.descricao[2] && <p>{servico.descricao[2]}</p>}
 
               <a
                 href="https://api.whatsapp.com/send?phone=5541995490666&text=Olá, gostaria de mais informações sobre os serviços da MetalSul."
@@ -58,8 +39,9 @@ const ServicosMain = () => {
                   variant="contained"
                   startIcon={<WhatsAppIcon />}
                   size="large"
+                  className="orcamento"
                 >
-                  Fale conosco
+                  Solicite um orçamento
                 </Button>
               </a>
             </div>
