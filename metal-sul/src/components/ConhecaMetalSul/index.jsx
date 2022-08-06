@@ -5,6 +5,7 @@ import { StyledDiv } from "./style";
 import { useHistory } from "react-router-dom";
 
 import Fade from "react-reveal/Fade";
+
 import { Box } from "@mui/system";
 
 const ConhecaMetalSul = () => {
@@ -33,8 +34,8 @@ const ConhecaMetalSul = () => {
               <p>
                 {" "}
                 Na <span className="metalSul">MetalSul</span>, entregamos
-                soluções completas para sua empresa, condomínio ou residência,
-                sempre prezando pela qualidade e segurança de nossos serviços.
+                soluções completas para os nossos clientes, sempre prezando pela
+                qualidade e segurança de nossos serviços.
               </p>
 
               <Button

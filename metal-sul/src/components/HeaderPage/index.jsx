@@ -2,7 +2,7 @@ import { StyledHeader } from "./style";
 
 import Fade from "react-reveal/Fade";
 
-const Header = ({ page }) => {
+const HeaderPage = ({ page }) => {
   return (
     <Fade top>
       <StyledHeader>
@@ -15,4 +15,4 @@ const Header = ({ page }) => {
   );
 };
 
-export default Header;
+export default HeaderPage;

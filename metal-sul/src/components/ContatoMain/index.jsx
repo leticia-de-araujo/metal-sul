@@ -8,13 +8,13 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 
 import Fade from "react-reveal/Fade";
 
-import Header from "../Header";
+import HeaderPage from "../HeaderPage";
 
 const ContatoMain = () => {
   return (
     <StyledDiv>
       {" "}
-      <Header page={"Contato"} />
+      <HeaderPage page={"Contato"} />
       <Fade bottom>
         <div className="content">
           <Paper className="paper">

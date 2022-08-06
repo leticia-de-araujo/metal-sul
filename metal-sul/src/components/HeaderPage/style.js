@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-import obra10 from "../../imgs/obras/obra10.jpg";
+import obra3 from "../../imgs/obras/obra3.jpg";
 
 export const StyledHeader = styled.div`
   width: 100vw;
   overflow-x: hidden;
   height: 140px;
-  background-image: url(${obra10});
+  background-image: url(${obra3});
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;

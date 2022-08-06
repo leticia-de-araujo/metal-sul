@@ -1,11 +1,15 @@
-
+import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
+import ObrasMain from "../../components/ObrasMain";
+import WhatsAppButton from "../../components/WhatsAppButton";
 
 const ObrasRealizadas = () => {
   return (
     <>
-      <NavBar/>
-      <h1>Obras</h1>
+      <NavBar />
+      <ObrasMain />
+      <WhatsAppButton />
+      <Footer />
     </>
   );
 };

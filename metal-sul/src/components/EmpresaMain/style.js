@@ -1,44 +1,27 @@
 import styled from "styled-components";
 
-import obra3 from "../../imgs/obras/obra3.jpg";
+import empresa from "../../imgs/empresa.jpg";
 
-export const StyledDiv = styled.div`
+export const StyledMain = styled.main`
   width: 100%;
-  min-height: calc(100vh - 60px);
+  min-height: 100vh;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
+  justify-content: flex-start;
+  margin-top: 64px;
   align-items: center;
   background-color: #f5f5f5;
 
-  .box-mui {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5vh;
-  }
-
-  h2 {
-    color: #454649;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    font-weight: 500;
-    border-bottom: 3px solid #5177b8;
-    padding-bottom: 2px;
-  }
-
-  .content-conheca {
+  .content-empresa {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding: 0 1.5rem;
+    flex: 1;
 
     @media (min-width: 450px) {
       gap: 3rem;
@@ -46,12 +29,13 @@ export const StyledDiv = styled.div`
 
     @media (min-width: 800px) {
       flex-direction: row;
+      margin: 1rem 0;
     }
 
     .img-div {
       width: 100%;
-      height: 20vh;
-      background-image: url(${obra3});
+      min-height: 26vh;
+      background-image: url(${empresa});
       background-color: #cccccc;
       background-position: center;
       background-repeat: no-repeat;
@@ -59,15 +43,10 @@ export const StyledDiv = styled.div`
       position: relative;
       border-radius: 4px;
       box-shadow: 10px 10px 16px -5px rgba(0, 0, 0, 0.32);
-      margin-bottom: 1rem;
-
-      @media (min-width: 350px) {
-        height: 25vh;
-      }
 
       @media (min-width: 800px) {
-        width: 50%;
-        height: 68vh;
+        width: 47%;
+        height: 62vh;
       }
     }
 

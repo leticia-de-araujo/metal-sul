@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledDiv = styled.div`
   position: fixed;
-  bottom: 12px;
-  right: 12px;
+  bottom: 1.1rem;
+  right: 1.1rem;
   display: flex;
   gap: 7px;
   justify-content: center;
