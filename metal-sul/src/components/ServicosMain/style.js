@@ -62,8 +62,16 @@ export const StyledMain = styled.main`
         width: 30rem;
       }
 
+      h4 {
+        color: #454649;
+        border-bottom: 3px solid #5177b8;
+        padding-bottom: 4px;
+        width: fit-content;
+      }
+
       p {
         font-size: 0.85rem;
+        color: #454649;
 
         @media (min-width: 350px) {
           font-size: 1rem;
