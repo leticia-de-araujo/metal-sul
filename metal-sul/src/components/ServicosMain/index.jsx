@@ -31,7 +31,7 @@ const ServicosMain = () => {
               {servico.descricao[2] && <p>{servico.descricao[2]}</p>}
 
               <a
-                href="https://api.whatsapp.com/send?phone=5541995490666&text=Olá, gostaria de mais informações sobre os serviços da MetalSul."
+                href="https://api.whatsapp.com/send?phone=5541995490001&text=Olá, gostaria de mais informações sobre os serviços da MetalSul."
                 target="_blank"
                 rel="noreferrer"
               >
