@@ -1,6 +1,7 @@
 {
   "name": "metal-sul",
   "version": "0.1.0",
+  "homepage": "https://metalsul.net.br/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
