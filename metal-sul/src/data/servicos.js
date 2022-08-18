@@ -9,7 +9,7 @@ const servicos = [
     nome: "Estruturas Metálicas",
     descricao: [
       "Somos especializados na construção de Estruturas Metálicas.",
-      "Na MetalSul prezamos por entregar Estruturas Metálicas de máxima qualidade, sempre levando em conta preço, facilidade, peso e resistência.",
+      "Na MetalSul prezamos por entregar Estruturas Metálicas de máxima qualidade e segurança.",
     ],
 
     img: estruturas,
@@ -28,7 +28,7 @@ const servicos = [
     id: 3,
     nome: "Escadas Metálicas",
     descricao: [
-      "Na MetalSul somos especialistas em entregar Escadas Metálicas bem projetadas e construídas.",
+      "Na MetalSul somos especialistas na construção de Escadas Metálicas.",
       "Prezamos sempre pela máxima qualidade e segurança, construindo excelentes Escadas Metálicas com o melhor custo benefício.",
     ],
     img: escadas,
@@ -37,9 +37,8 @@ const servicos = [
     id: 4,
     nome: "Telhas Termoacústicas",
     descricao: [
-      "Na MetalSul trabalhamos em parceria com empresas fornecedoras de Telhas Termoacústicas de altíssima qualidade e confiança, com o objetivo de entregar o melhor serviço para os nossos clientes.",
-      "As Telhas Termoacústicas são compostas por telhas metálicas preenchidas com material isolante, que se expandem e aderem perfeitamente ao aço.",
-      "As Telhas Termoacústicas são um produto com grande rigidez, de alta resistência térmica e de grande isolamento acústico a ruídos externos, proporcionando um ambiente refrigerado e silencioso.",
+      "Na MetalSul trabalhamos em parceria com empresas fornecedoras de Telhas Termoacústicas de alta qualidade e confiança, para entregarmos o melhor serviço para os nossos clientes.",
+      "As Telhas Termoacústicas são um produto de grande rigidez, de alta resistência térmica e de grande isolamento acústico a ruídos externos, proporcionando um ambiente refrigerado e silencioso.",
     ],
     img: telhas,
   },
